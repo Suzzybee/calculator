@@ -1,0 +1,67 @@
+.container{
+    margin-top: 4em;
+    width: 30%;
+    padding-top: 4em;
+    border: 1px solid;
+    box-shadow: 0 0 1em;
+    background-color: rgba(191, 189, 189, 0.336);
+}
+.row1{
+    display: flex;
+    gap: 1.7em;
+}
+.CalBtn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+button{
+    padding: 0.7em !important;
+    border-radius: 0 !important;
+    /* font-size: 18px !important; */
+}
+#result-display{
+    text-align: end;
+    /* margin-left: 70%; */
+    /* direction: ltr; */
+}
+input{
+    background-color: rgba(191, 189, 189, 0.034);
+    border: 0;
+    width: 100%;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: end;
+    /* direction: rtl; */
+}
+.header{
+    margin-top: -3em;
+    justify-content: space-between;
+}
+.icons{
+   word-spacing: 2em;
+}
+.standard{
+    justify-content: space-between;
+}
+.btn-tertiary{
+    background-color: rgba(191, 189, 189, 0.029);
+}
+
+.btn-tertiary:hover{
+    background-color: rgba(191, 189, 189, 0.526);
+}
+.sign:hover{
+    background-color: rgba(0, 110, 255, 0.711);
+    color: #ffffff;
+}
+.standard-div{
+    gap: 2em;
+}
+.bi-x-lg:hover{
+    background-color: #ff0000;
+}
+.bi-dash:hover, .bi-app:hover{
+    background-color: rgba(191, 189, 189, 0.526);
+    width: 50px;
+}

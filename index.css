@@ -5,10 +5,13 @@
     border: 1px solid;
     box-shadow: 0 0 1em;
     background-color: rgba(191, 189, 189, 0.336);
+    position: relative;
 }
 .row1{
     display: flex;
     gap: 1.7em;
+    position: absolute;
+    display: none;
 }
 .CalBtn{
     display: grid;
@@ -65,3 +68,15 @@ input{
     background-color: rgba(191, 189, 189, 0.526);
     width: 50px;
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 320px) {
+    .container{
+        width: 90%;
+    }
+}
+
